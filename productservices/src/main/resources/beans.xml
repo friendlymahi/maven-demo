@@ -6,6 +6,10 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
-
+	<bean id="productdaobean" class="com.demo.sample.dao.ProductDAOImpl" />
+	
+	<bean id="productbobean" class="com.demo.sample.bo.ProductBOOImpl" >
+		<property name="productDao" ref="productdaobean" />
+	</bean>
 
 </beans>
