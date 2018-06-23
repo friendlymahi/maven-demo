@@ -6,7 +6,7 @@
 
   <groupId>com.demo.sample</groupId>
   <artifactId>productweb</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.3-SNAPSHOT</version>
   <packaging>war</packaging>
 
   <name>productweb Maven Webapp</name>
