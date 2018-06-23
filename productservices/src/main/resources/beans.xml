@@ -8,7 +8,7 @@
 
 	<bean id="productdaobean" class="com.demo.sample.dao.ProductDAOImpl" />
 	
-	<bean id="productbobean" class="com.demo.sample.bo.ProductBOOImpl" >
+	<bean id="productbobean" class="com.demo.sample.bo.ProductBOImpl" >
 		<property name="productDao" ref="productdaobean" />
 	</bean>
 

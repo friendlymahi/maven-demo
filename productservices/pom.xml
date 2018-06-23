@@ -5,7 +5,6 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>productservices</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
 
   <name>productservices</name>
   <!-- FIXME change it to the project's website -->
@@ -70,7 +69,7 @@
   <parent>
   	<groupId>com.demo.sample</groupId>
   	<artifactId>productmaster</artifactId>
-  	<version>0.0.1-SNAPSHOT</version>
+  	<version>1.0.0</version>
   	<relativePath>../productmaster</relativePath>
   </parent>
 </project>
